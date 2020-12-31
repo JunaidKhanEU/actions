@@ -2,6 +2,7 @@ name: Scedule test
 on: 
   schedule:
   - cron: '*/5 * * * *'
+  
 jobs:
   my-job:
     name: cron echo commands
