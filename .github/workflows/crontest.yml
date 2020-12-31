@@ -1,0 +1,14 @@
+name: cron test
+
+on: 
+  schedule:
+    - cron '*/1 * * * *'
+
+jobs:
+  my-job:
+    name: cron echo commands
+    runs-on: ubuntu-latest
+    steps:
+    - name: cron  greeting
+      run: |
+        echo 'hello World'.
