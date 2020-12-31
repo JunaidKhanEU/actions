@@ -1,6 +1,6 @@
 name: Scedule test
 
-on: 
+'on': 
   push:
     branches:
       - master
