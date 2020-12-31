@@ -1,7 +1,7 @@
 name: Scedule test
-on:
+on: 
   schedule:
-  - cron '*/2 * * * *'
+  - cron: '*/5 * * * *'
 jobs:
   my-job:
     name: cron echo commands
