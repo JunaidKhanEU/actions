@@ -1,6 +1,7 @@
 name: cron test
 
 on: 
+  push:
   schedule:
     - cron '*/1 * * * *'
 
