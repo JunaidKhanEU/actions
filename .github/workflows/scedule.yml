@@ -1,12 +1,7 @@
 name: Scedule test
-
-'on': 
-  push:
-    branches:
-      - master
+on: 
   schedule:
-    - cron '*/1 * * * *'
-
+    - cron '*/2 * * * *'
 jobs:
   my-job:
     name: cron echo commands
