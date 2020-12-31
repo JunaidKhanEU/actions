@@ -1,6 +1,6 @@
 name: Scedule test
 on: 
-  schedule:
+  schedules:
   - cron: '*/5 * * * *'
   
 jobs:
