@@ -1,7 +1,7 @@
-name: Create issue on commit
+name: Create issue on issue
 on: ['pull_request']
 jobs:
-  create_commit:
+  create_issue:
     runs-on: ubuntu-latest
     steps:
     - name: Create issue using REST API
