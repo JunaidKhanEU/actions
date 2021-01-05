@@ -1,0 +1,11 @@
+name: CURL WORKFLOW
+on: ['push']
+jobs:
+  json-placeholder:
+    runs-on: ubuntu-16.04
+    steps:
+      - name: request to json placeholder for data
+        run: |
+          curl --request GET \
+          --url https://jsonplaceholder.typicode.com/posts/1 \
+          --header 'content-type: application/json'
