@@ -1,5 +1,5 @@
 name: Contexts Github Logs
-on: push
+on: ['pull_request'] 
 
 jobs:
   github_contexts:
